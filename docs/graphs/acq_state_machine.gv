@@ -1,0 +1,16 @@
+digraph statemachine{
+    rankdir=LR;
+    S [shape = point];
+    node [shape=oval width=2.5 height=0.75];
+
+    touchmeasurereq [label="start\nmeasurement"];
+    touchpprequest [label="Post-process\ndata"];
+    measurementdone [label="Indicate measurement\nhas finished"];
+    eval [label="Evaluate measured data"];
+    
+    S -> touchmeasurereq;
+    touchmeasurereq -> touchpprequest;
+    touchpprequest -> measurementdone;
+    measurementdone -> eval;
+    eval -> touchmeasurereq;
+}

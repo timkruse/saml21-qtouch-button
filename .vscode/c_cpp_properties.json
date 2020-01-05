@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "ARM",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc",
+            "includePath": [
+				"${workspaceFolder}/**",
+                "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1",
+                "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi",
+                "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward",
+                "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include",
+                "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include",
+                "~/Applications/arm-dev/xdk-asf-3.45.0/sam0/utils/cmsis/saml21/include_b",
+                "~/Applications/arm-dev/xdk-asf-3.45.0/thirdparty/CMSIS/Include",
+                "~/Applications/arm-dev/xdk-asf-3.45.0/sam0/utils/cmsis/saml21/source"
+            ],
+            "defines": [
+				"__SAML21G18B__"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1",
+                    "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi",
+                    "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward",
+                    "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include",
+                    "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                    "~/Applications/arm-dev/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include",
+                    "~/Applications/arm-dev/xdk-asf-3.45.0/sam0/utils/cmsis/saml21/include_b",
+                    "~/Applications/arm-dev/xdk-asf-3.45.0/thirdparty/CMSIS/Include",
+                    "~/Applications/arm-dev/xdk-asf-3.45.0/sam0/utils/cmsis/saml21/source"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}

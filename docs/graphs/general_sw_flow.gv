@@ -1,0 +1,14 @@
+digraph GeneralSWFlow{
+    node [shape=rect];
+	rankdir=LR;
+	start [shape=circle label="" style=filled color=grey];
+    clkconf [label="configure & enable\nPTC & Timer clocks"];
+	timer [label="Start Timer @ 20ms"];
+    qtconfigacq [label="Configure QTouch\nAcquisition Module"];
+    qtconfigkey [label="Configure QTouch\nTouchKey Module"]
+    runsm [label="Run Measurement\nState Machine"];
+
+	start -> clkconf-> timer -> qtconfigacq -> qtconfigkey -> runsm -> end;
+	end [shape=doublecircle label="" style=filled color=grey];
+}
+
